@@ -22,10 +22,7 @@ router.get('/', async (req, res) => {
     recovered: await getData(constants.app.api.recoveredAPI)
   };
 
-  res.json({
-    ...stat,
-    common: stat.deaths + stat.confirmed + stat.recovered
-  });
+  res.json({result: stat});
 });
 
 module.exports = router;
