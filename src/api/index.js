@@ -1,7 +1,9 @@
 'use strict';
 
-const UserAPI = require('./user');
+const WorldAPI = require('./world');
+const CountriesAPI = require('./countries');
 
 module.exports = {
-  UserAPI
+  WorldAPI,
+  CountriesAPI
 };
