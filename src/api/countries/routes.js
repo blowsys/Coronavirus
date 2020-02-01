@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
 
 router.get('/:id', async (req, res) => {
   const countriesData = await getData(constants.app.api.countriesAPI);
-  const countryData = countriesData.find(e => e['Country_Region']);
+  const countryData = countriesData.find(e => e['Country_Region'] === req.params.id);
   res.json({ result: countryData });
 });
 
