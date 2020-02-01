@@ -1,2 +1,2 @@
-# Corona Virus Trackes REST API
+# Corona Virus Tracker REST API
 
