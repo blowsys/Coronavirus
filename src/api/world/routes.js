@@ -17,9 +17,9 @@ router.get('/', async (req, res) => {
   };
 
   const stat = {
-    deaths: await getData(constants.app.api.deathsAPI),
-    confirmed: await getData(constants.app.api.confirmedAPI),
-    recovered: await getData(constants.app.api.recoveredAPI)
+    Deaths: await getData(constants.app.api.deathsAPI),
+    Confirmed: await getData(constants.app.api.confirmedAPI),
+    Recovered: await getData(constants.app.api.recoveredAPI)
   };
 
   res.json({result: stat});
