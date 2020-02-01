@@ -1,3 +1,2 @@
-# express-social-app
+# Corona Virus Trackes REST API
 
-this is simple minimal social app written on express
